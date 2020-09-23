@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h2{
+        color: rgb(35, 184, 16);
+    }
+</style>
+<body>
+    <h2><ins>El club viejuner</ins></h2>
+    <p>Datos sobre usted:</p>
+    <form>
+        <label for="firts-name">¿Cúal es su nombre?</label> <br>
+        <input type="text" name="firts-name" id="firts-name" required placeholder="Milagros">
+        <br>
+        <label for="surname">¿Cúal es su primer apellido?</label> <br>
+        <input type="text" name="surname" id="second-name" placeholder="Garcia">
+        <br>
+        <label for="age">¿Cuantos años tiene?</label> <br>
+        <input type="number" name="age" id="age" required placeholder="65">
+        <br>
+        <fieldset>
+            <legend>Determine su sexo</legend>
+            <input type="radio" id="male" name="genre" value="male">
+            <label for="male">Hombre</label>
+            <br>
+            <input type="radio" id="female" name="genre" value="female">
+            <label for="female">Mujer</label>
+            <br>
+            <input type="radio" id="blue hair-girl" name="genre" value="blue-hair">
+            <label for="blue hair-girl">Mujer con el pelo azul</label>
+        </fieldset>
+        <fieldset>
+            <legend>¿Se sientes viejuner?</legend>
+            <input type="checkbox" id="yes" name="yes" value="yes">
+            <label for="checkbox">Si, me siento viejuner</label>
+            <input type="checkbox" id="no" name="no" value="no">
+            <label for="no">No, no me siento viejuner</label>
+            <input type="checkbox" id="no-to-yes" name="no-to-yes" value="no-to-yes">
+            <label for="no-to-yes">No, pero me gustaria serlo</label>
+        </fieldset>
+        
+      <label for="description">Hablenos sobre usted</label> <br>
+        <textarea
+            name="description"
+            id="description"
+            rows="9"
+            cols="75"
+            placeholder="Hola me llamo Milagros y me gustaria sentirme viejuner..."
+        ></textarea> <br>
+        <label for="email">Escriba su correo electrónico:</label> <br>
+        <input type="email" id="email" name="email" placeholder="example_node@gmail.com" required> <br>
+        <label for="password">Contraseña del correo electrónico:</label> <br>
+        <input type="password" id="password" name="password" placeholder="example1973" required> <br>
+        <label for="phone-number">Dejenos un teléfono de contacto:</label> <br>
+        <input type="number" id="phone-number" name="phone number" placeholder="648956753"> <br>
+        <br><input type="submit" value="Enviar mis datos 😊" />
+
+    </form>
+</body>
+</html>
